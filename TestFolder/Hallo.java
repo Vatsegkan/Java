@@ -3,10 +3,10 @@ import java.util.Scanner;
 class Hallo{
 
     public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
+        Scanner nummer = new Scanner(System.in);
 
         System.out.println("Geben Sie eine Zahl ein:");
-        zahl = input.nextInt();
+        int zahl = nummer.nextInt();
 
         if(zahl == 10){
             System.out.println("Welcome!");
